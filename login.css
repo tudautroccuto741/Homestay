@@ -1,0 +1,235 @@
+/* Đăng nhập */
+.html, body{
+position: relative;
+width: 100%;
+height: 100%;
+background: #FFFFFF;
+margin: 0;
+width: 100%;
+height: 100%;
+font-family: 'Gamja Flower';
+font-size: 28px;
+color: #222;
+}
+
+
+.navbar {
+	background-color: white !important;
+}
+.navbar li a {
+    color: black !important;
+}
+.navbar li a:hover {
+    color: black !important;
+}
+
+.welcome {
+    background: linear-gradient(90deg,#f65e38 0,#f68a39 51%,#f65e38);
+    padding: 3rem 0 5rem;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container--sm {
+    max-width: calc(1296px + 5.6rem);
+}
+
+@media (min-width: 1200px){
+    .container {
+        padding: 0 2.8rem;
+    }
+}
+
+.row {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+}
+.first-xs {
+    -ms-order: 1;
+    order: 1;
+}
+
+.last-xs {
+    -ms-order: 2;
+    order: 2;
+}
+.col-xs-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.account {
+    padding: .975rem;
+    background: #fff;
+    box-shadow: 0 9px 46px 8px rgba(0,0,0,.02), 0 24px 38px 3px rgba(0,0,0,.04), 0 11px 15px -7px rgba(0,0,0,.05);
+    border-radius: .625rem;
+    margin-top: -3.375rem;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.account__title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.input-group {
+    margin-bottom: 1rem;
+}
+.input-group__label {
+    position: relative;
+}
+label {
+    cursor: default;
+}
+.bold, .coupon__action, .coupon__code {
+    font-weight: 700;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+input:not(.input--square), select:not(.input--square), textarea:not(.input--square) {
+    border-radius: 3rem;
+}
+
+input, textarea {
+    padding: .5rem 1.25rem;
+}
+
+input, select, textarea {
+    height: 3rem;
+    border: 1px solid #e6e6e6;
+    transition: all .3s;
+    font-size: 14px;
+    font-family: Luxstay;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/*button*/
+
+.btn--shadow {
+    box-shadow: 0 4px 12px 0 rgba(246,116,57,.4);
+}
+.btn-grad--primary {
+    background-image: linear-gradient(90deg,#f65e38 0,#f68a39 51%,#f65e38);
+    background-size: 200% auto;
+}
+.btn--radius, .btn--radius:before {
+    border-radius: 3rem;
+}
+.btn--full {
+    width: 100%;
+    text-align: center;
+}
+.btn--md, .btn--xl {
+    padding: 0 1.875rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+}
+.btn {
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 1rem;
+    display: inline-block;
+    transition: all .3s;
+    text-align: center;
+}
+.account__3rd .btn:last-child {
+    margin-top: 1rem;
+}
+.account__3rd .btn {
+    border-color: #e6e6e6;
+}
+.btn-outline--secondary {
+    border: 1px solid #555;
+    color: #555;
+}
+
+@media (min-width: 992px)
+{
+    .first-md {
+    -ms-order: 1;
+    order: 1;
+    }
+    .col-md-4 {
+        flex-basis: 33.33333%;
+        max-width: 33.33333%;
+    }
+    .col-md-8 {
+        flex-basis: 66.66667%;
+        max-width: 66.66667%;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .account {
+        padding: 2rem;
+    }
+}   
+@media (min-width: 990px)
+{
+    .account {
+        margin-top: -6.875rem;
+    }
+}
+
+/* Footer */
+.footer{
+    widows: 100%;
+	padding: 3rem 0;
+}
+
+.rows
+{
+	flex-wrap: wrap;
+    box-sizing: border-box;
+    display: flex;
+}
+.center-xs {
+    justify-content: center;
+    text-align: center;
+}
+.mt--30 {
+    margin-top: 30px!important;
+}
+.account__body>* {
+    margin-top: 2rem;
+}
+.country .code {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: #f6f6f6;
+    border-radius: 2rem;
+    width: 100px;
+    margin-right: 1rem;
+}
+.phone-input {
+    display: flex;
+}
